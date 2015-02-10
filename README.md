@@ -6,6 +6,7 @@ With this plugin you don't need to type for instance //fast and /ptime @12pm eve
 
 The commands are:
 /startcommands: Run your startcommands.
+
 /startcommands <add> <command>: Add a command to your startcommands.
 /startcommands <addp> <player> <command>: Add a command to another player's startcommands.
 /startcommands <help>: StartCommands help.
