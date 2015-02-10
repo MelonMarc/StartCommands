@@ -1,5 +1,5 @@
 name: StartCommands
-version: 1.0-pre 1
+version: 1.0
 # Edit in Info.java aswell ^^
 main: me.melonmarc.startcommands.StartCommands
 author: MelonMarc
