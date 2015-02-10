@@ -1,0 +1,83 @@
+name: StartCommands
+version: 1.0-pre 1
+# Edit in Info.java aswell ^^
+main: me.melonmarc.startcommands.StartCommands
+author: MelonMarc
+description: Automatically run usefull commands!
+
+commands:
+    startcommands:
+        usage: /<command>
+        aliases: [sc]
+        description: Type "/sc help" for info
+        
+permissions:
+    '*':
+        description: Everything.
+        children:
+            startcommands.add: true
+            startcommands.addp: true
+            startcommands.help: true
+            startcommands.info: true
+            startcommands.relaod: true
+            startcommands.remove: true
+            startcommands.removep: true
+            startcommands.run: true
+            startcommands.list: true
+        default: op
+    startcommands.*:
+        description: Use all startcommands commands.
+        children:
+            startcommands.add: true
+            startcommands.addp: true
+            startcommands.help: true
+            startcommands.info: true
+            startcommands.relaod: true
+            startcommands.remove: true
+            startcommands.removep: true
+            startcommands.run: true
+            startcommands.list: true
+        default: op
+    startcommands.player:
+        description: Use all player startcommands commands.
+        children:
+            startcommands.add: true
+            startcommands.addp: false
+            startcommands.help: true
+            startcommands.info: true
+            startcommands.relaod: false
+            startcommands.remove: true
+            startcommands.removep: false
+            startcommands.run: true
+            startcommands.list: true
+        default: op
+    startcommands.add:
+        description: Add a command to your startcommands.
+        default: op
+    startcommands.addp:
+        description: Add a command to another player's startcommands.
+        default: op
+    startcommands.help:
+        description: StartCommands help.
+        default: op
+    startcommands.info:
+        description: StartCommands info.
+        default: op
+    startcommands.list:
+        description: A list of your startcommands.
+        default: op
+    startcommands.list.player:
+        description: A list of another player's startcommands.
+        default: op
+    startcommands.reload:
+        description: Reload the StartCommands config.
+        default: op
+    startcommands.remove:
+        description: Remove a command from your startcommands.
+        default: op
+    startcommands.removep:
+        description: Remove a command from another player's startcommands.
+        default: op
+    startcommands.run:
+        description: Run your startcommands.
+        default: op
