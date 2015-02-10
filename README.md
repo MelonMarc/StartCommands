@@ -8,21 +8,21 @@ The commands are:
 
 /startcommands: Run your startcommands.
 
-/startcommands <add> <command>: Add a command to your startcommands.
+/startcommands add command: Add a command to your startcommands.
 
-/startcommands <addp> <player> <command>: Add a command to another player's startcommands.
+/startcommands addp player command: Add a command to another player's startcommands.
 
-/startcommands <help>: StartCommands help.
+/startcommands help: StartCommands help.
 
-/startcommands <info>: StartCommands information.
+/startcommands info: StartCommands information.
 
-/startcommands <list> [<player>]: A list of your or another player's startcommands.
+/startcommands list [player]: A list of your or another player's startcommands.
 
-/startcommands <reload>: Reload the StartCommands config.
+/startcommands reload: Reload the StartCommands config.
 
-/startcommands <remove> <command>: Remove a command from your startcommands.
+/startcommands remove command: Remove a command from your startcommands.
 
-/startcommands <removep> <player> <command>: Remove a command from another player's startcommands.
+/startcommands removep player command: Remove a command from another player's startcommands.
 
 (instead of /startcommands you can use /sc)
 
