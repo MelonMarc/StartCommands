@@ -3,7 +3,7 @@ version: 1.0
 # Edit in Info.java aswell ^^
 main: me.melonmarc.startcommands.StartCommands
 author: MelonMarc
-description: Automatically run usefull commands!
+description: Automatically run useful commands!
 
 commands:
     startcommands:
