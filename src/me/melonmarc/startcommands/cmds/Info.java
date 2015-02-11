@@ -15,7 +15,7 @@ public class Info extends SubCommand {
 		sender.sendMessage(ChatColor.GOLD + "StartCommands Info:");
 		sender.sendMessage(ChatColor.GRAY + "Version: " + ChatColor.WHITE + "1.0-pre 1");
 		sender.sendMessage(ChatColor.GRAY + "Author: " + ChatColor.WHITE + "MelonMarc");
-		sender.sendMessage(ChatColor.GRAY + "Description: " + ChatColor.WHITE + "Automatically run usefull commands!");
+		sender.sendMessage(ChatColor.GRAY + "Description: " + ChatColor.WHITE + "Automatically run useful commands!");
 	}
 		
 	public String name() {
